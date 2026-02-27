@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <frameset rows="100,60,*,60" border="1">
+
+        <!-- Header -->
+        <frame src="header.html" name="header">
+
+            <!-- Navigation -->
+            <frame src="nav.html" name="nav">
+
+                <!-- Content Area (3 kolom) -->
+                <frameset cols="20%,60%,20%">
+                    <frame src="left.html" name="left">
+                        <frame src="home.html" name="main">
+                            <frame src="right.html" name="right">
+                </frameset>
+
+                <!-- Footer -->
+                <frame src="footer.html" name="footer">
+
+    </frameset>
+
+</html>
