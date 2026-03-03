@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden; 
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    width: 100%;
+}
+
+/* Bagian Header */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+    height: 110px;
+}
+
+/* Bagian Navbar*/
+nav {
+    background-color: #FFC4C4;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #850E35;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #EE6983;
+}
+
+/* Bagian Area Konten */
+.content-area {
+    display: flex;
+    flex: 1;
+}
+
+/* Kanan */
+.left {
+    flex: 1;
+    background-color: #fdf1ec;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+h3 {
+    color: #b23a48;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* list Kategori*/
+.category-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.category-list li {
+    margin-bottom: 15px;
+}
+
+.category-list a {
+    display: block;
+    padding: 12px 15px;
+    background-color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #850E35;
+    font-weight: 500;
+}
+
+.category-list a:hover {
+    background-color: #FFC4C4;
+    transform: translateX(6px);
+}
+
+/* main konten */
+main {
+    flex: 2;
+    background-color: #fffefd;
+    padding: 40px;
+}
+
+main h2 {
+    font-size: 28px;
+    color: #b76e79;
+    margin-bottom: 15px;
+}
+
+main p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Subjudul */
+main h3 {
+    margin-bottom: 15px;
+    color: #850E35;
+}
+
+/* Bagian Kiri Form Order */
+.right {
+    width: 25%;
+    padding: 20px;
+    background-color: #fdf1ec;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #e0aeb7;
+    outline: none;
+}
+
+.order-form input:focus,
+.order-form select:focus,
+.order-form textarea:focus {
+    border-color: #d6336c;
+}
+
+.order-form button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d6336c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.order-form button:hover {
+    background-color: #b02352;
+}
+
+/* Menu*/
+.menu-grid {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.menu-card {
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.menu-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.menu-card h4 {
+    font-size: 15px;
+    color: #b23a48;
+    margin-bottom: 4px;
+}
+
+.menu-card p {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.menu-card span {
+    font-size: 13px;
+    font-weight: bold;
+    color: #7a2e3a;
+}
+
+.menu-card:hover {
+    transform: scale(1.03);
+}
+
+/* Footer*/
+footer {
+    background-color: #EE6983;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
