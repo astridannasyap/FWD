@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RWD Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+    <!-- Buttons CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+    <!-- Buttons JS -->
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.print.min.js"></script>
+
+    <!-- Required for Excel & PDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-12">
+            <div class="carousel slide" id="carousel-63142e3c-ed31-43da-ac4d-e8d8fc751afe" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel-63142e3c-ed31-43da-ac4d-e8d8fc751afe"
+                        data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-63142e3c-ed31-43da-ac4d-e8d8fc751afe"
+                        data-bs-slide-to="1" aria-current="false" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-63142e3c-ed31-43da-ac4d-e8d8fc751afe"
+                        data-bs-slide-to="2" aria-current="false" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <img class="img-fluid w-100" src="img/1.png" style="max-height:300px;" alt="Carousel image">
+                    </div>
+
+                    <div class="carousel-item text-center">
+                        <img class="img-fluid w-100" src="img/2.png" style="max-height:300px;" alt="Carousel image">
+                    </div>
+
+                    <div class="carousel-item text-center">
+                        <img class="img-fluid w-100" src="img/3.png" style="max-height:300px;" alt="Carousel image">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carousel-63142e3c-ed31-43da-ac4d-e8d8fc751afe" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">
+                        prev
+                    </span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carousel-63142e3c-ed31-43da-ac4d-e8d8fc751afe" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">
+                        next
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <img src="img/logo.png" width="70" height="70" class="img-thumbnail" alt="Logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-collapse-9fc0287d-2eac-4130-a937-940cbb173744"
+                        aria-controls="navbar-collapse-9fc0287d-2eac-4130-a937-940cbb173744" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar-collapse-9fc0287d-2eac-4130-a937-940cbb173744">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="home.html" aria-current="page">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="study.html">
+                                    Mystudy
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="gallery.html">
+                                    Gallery
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="datatable.html">
+                                    Datatable
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="login.html" aria-current="page">
+                                    Login
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-primary" type="submit">
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Content & Main Content -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Sidebar -->
+            <div class="col-md-3 bg-white text-dark p-3 h-100">
+                <h4 class="text-center mb-4">Web Lembaga</h4>
+
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="https://nurulfikri.ac.id/" class="nav-link active">NF Academy</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://nfacademy.id/" class="nav-link text-dark">STT NF</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://www.ruangguru.com/" class="nav-link text-dark">Ruang Guru</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://myskill.id/" class="nav-link text-dark">MySkill</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://www.revou.co/id" class="nav-link text-dark">Revou</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://id.kumonglobal.com/?lang=id" class="nav-link text-dark">Kumon Global</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9 p-4">
+
+                <h2 class="mb-4">Data Mahasiswa</h2>
+
+                <div class="card shadow-sm p-4">
+
+                    <table id="myTable" class="display table table-striped" style="width:100%">
+                        <thead class="table-primary text-center">
+                            <tr>
+                                <th>No</th>
+                                <th>Nama</th>
+                                <th>NIM</th>
+                                <th>Jurusan</th>
+                                <th>Angkatan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Dini</td>
+                                <td>0110123456</td>
+                                <td>Teknik Informatika</td>
+                                <td>2023</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Andi</td>
+                                <td>0110123457</td>
+                                <td>Sistem Informasi</td>
+                                <td>2022</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Andi</td>
+                                <td>0110123457</td>
+                                <td>Sistem Informasi</td>
+                                <td>2022</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Rina</td>
+                                <td>0110123458</td>
+                                <td>Sistem Informasi</td>
+                                <td>2022</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Dudi</td>
+                                <td>0110123459</td>
+                                <td>Sistem Informasi</td>
+                                <td>2023</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Ahmad</td>
+                                <td>0110123460</td>
+                                <td>Sistem Informasi</td>
+                                <td>2024</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="row">
+        <div class="col-12">
+            <footer class="bg-dark text-light py-4">
+                <div class="container">
+                    <div class="row text-center text-md-start">
+
+                        <!-- Kolom 1 -->
+                        <div class="col-md-4 mb-3">
+                            <h5 class="fw-bold">Personal Site</h5>
+                            <p class="small">
+                                Website ini dibuat untuk memenuhi tugas praktikum Web Programming.
+                            </p>
+                        </div>
+
+                        <!-- Kolom 2 -->
+                        <div class="col-md-4 mb-3">
+                            <h6 class="fw-bold">Menu</h6>
+                            <ul class="list-unstyled small">
+                                <li><a href="index.html" class="text-decoration-none text-light">Home</a></li>
+                                <li><a href="study.html" class="text-decoration-none text-light">MyStudy</a></li>
+                                <li><a href="contact.html" class="text-decoration-none text-light">Kontak</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Kolom 3 -->
+                        <div class="col-md-4 mb-3">
+                            <h6 class="fw-bold">Kontak</h6>
+                            <p class="small mb-1">Email: info@email.com</p>
+                            <p class="small">Telp: 0812-3456-7890</p>
+
+                            <!-- Sosial Media -->
+                            <div class="mt-3">
+                                <a href="https://www.instagram.com/" class="text-light me-3 fs-5">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com/" class="text-light me-3 fs-5">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/" class="text-light me-3 fs-5">
+                                    <i class="bi bi-twitter-x"></i>
+                                </a>
+                                <a href="https://www.youtube.com/" class="text-light fs-5">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr class="border-light">
+
+                    <div class="text-center small">
+                        © 2026 Astrid Annasya Putri | All Rights Reserved
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable({
+                dom: 'Bfrtip',
+                buttons: [
+                    'copy',
+                    'csv',
+                    'excel',
+                    'pdf',
+                    'print'
+                ]
+            });
+        });
+    </script>
+</body>
+
+</html>
