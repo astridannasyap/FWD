@@ -1,0 +1,14 @@
+.btnTambah {
+  background-color: #255cff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btnTambah:hover {
+  background-color: #1a4bb0;
+}
